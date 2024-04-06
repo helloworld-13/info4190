@@ -1,4 +1,7 @@
-public static void sortStrings(String[] array) {
+<
+public static void sortIntegers(int[] array) {
         Arrays.sort(array);
+		
 		}
+
     
