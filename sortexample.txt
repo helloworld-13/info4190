@@ -1,0 +1,26 @@
+import java.util.Arrays;
+
+public class Sorter {
+    public static void main(String[] args) {
+        
+        int[] intArray = {3, 2, 1, 5, 4};
+        System.out.println("Original Integer Array: " + Arrays.toString(intArray));
+        sortIntegers(intArray);
+        System.out.println("Sorted Integer Array: " + Arrays.toString(intArray));
+
+        
+        String[] stringArray = {"red", "yellow", "blue", "green"};
+        System.out.println("\nOriginal String Array: " + Arrays.toString(stringArray));
+        sortStrings(stringArray);
+        System.out.println("Sorted String Array: " + Arrays.toString(stringArray));
+    }
+
+    public static void sortIntegers(int[] array) {
+        Arrays.sort(array);
+    }
+
+    public static void sortStrings(String[] array) {
+        Arrays.sort(array);
+		
+    }
+}
