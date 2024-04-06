@@ -1,6 +1,7 @@
 <
 public static void sortIntegers(int[] array) {
         Arrays.sort(array);
+		
 		}
 
     
